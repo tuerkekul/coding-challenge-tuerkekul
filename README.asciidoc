@@ -149,3 +149,22 @@ Ideally you provide your solutions as Git repository with
 appropriate commits and descriptions. If you have a GitLab.com
 or GitHub account, please feel free to publish your solution
 there.
+
+== Programming Challenge Tuerkekul
+Overview::
+This project analyzes weather and country data from CSV files. It consists of two main parts:
+1. Analyzing weather data to find the day with the smallest temperature difference.
+2. Analyzing country data to find the country with the highest population density.
+
+Project Structure::
+- CSVReader: Reads CSV files and returns the data as a list of string arrays.
+- WeatherAnalyzer: Analyzes weather data and identifies the day with the smallest temperature difference.
+- CountryAnalyzer: Analyzes country data and identifies the country with the highest population density.
+- App: The main class that executes the analyses.
+
+Execution::
+To run the project, use the following command
+    `mvn exec:java -Dexec.mainClass="de.bcxp.challenge.App"`
+Test::
+To run the tests, use the following command
+    `mvn test`
